@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+</head>
+<!--this is a parent div-->
+<style>
+    .parentdiv{
+        background-color: aqua;
+        width: 70%;
+        height: 550px;
+        margin: auto;
+        padding: 60px;
+        text-align: center;
+    }
+    .childdivone{
+background-color: whitesmoke;
+width: 30%;
+height: 70%;
+float: left;
+padding: 30px;
+margin: 30px;
+    }
+    .childdivtwo{
+        float: left;
+        width: 30%;
+        height: 70%;
+        background-color: wheat;
+        padding: 30px;
+        margin: 30px;
+        margin-bottom: 10px;
+        text-align: left;
+        margin-right: 20px;
+    }
+    img{
+        height: 250px;
+        width: 80%;
+    }
+</style>
+<body>
+    <a href="index.html">Home page</a>
+    <!--This is aparent div with two divs nestedin it -->
+    <div class="parentdiv">
+        <h1 >MY PROFILE</h1>
+        <div class="childdivone" ><h3>PHOTO</h3>
+            <img src="IMG1.jpg"alt="This is photo of Otika Noah">
+        </div>
+        <div  class="childdivtwo"><h2>DETAILS</h2>
+           <p>Name: Otika Noah Junior</p>
+          <p> Date of Birth: 2003.01.03</p>
+          <p> Place of Origin: Kiryandongo</p>
+          <p> Place of Residence: Bugema</p>
+           <p>Nationality: Ugandan</p>
+          <p> Marital status: Married</p>
+          <p>Religion: Catholics</p> 
+        </div>
+    </div>
+</body>
+</html>
