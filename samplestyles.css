@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+}
+.images{
+    height: 300px;
+    width: 250px;
+    padding: 10px;
+}
+.subdiv{
+    float: left;
+    margin: 30px;
+    border: 10px maroon solid;
+    padding-right: 10px;
+}
+.maindiv{
+    width: 90%;
+    height: 450px;
+    background-color: burlywood;
+    margin: auto;
+    padding: 30px;
+}
+.caption{
+    color: cornflowerblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: larger;
+    padding-bottom: 10px;
+}
